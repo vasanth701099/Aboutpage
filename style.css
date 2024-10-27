@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-card{
+    position: relative;
+}
+ .banner-card img{
+    width: 100%;
+    height:450px;
+    object-fit: cover;
+
+}
+.banner-text{
+    
+    position: absolute;
+    top: 18%;
+    left: 6%;
+    
+    
+}
+.banner-text p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+}
+.banner-text h6{
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.motivation-quote{
+    position: absolute;
+    top: 58% ;
+    left: 6%;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p-1,p-2,p-3,p-5{
+    color: yellow;
+}
+p-1 span{
+    color: orangered;
+}
+p-4{
+    color: orangered;
+}
+p-5 span{
+    color:rgb(246, 226, 255);
+}
+.sec-1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 15px;
+   font-size: 20px;
+   background-color:black;
+   margin-bottom: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-bar a{
+    margin-right: 50px;
+   text-decoration: none;
+   color: orangered;
+   font-weight: bold;
+   
+}
+.about-name{
+    color: beige;
+    margin-left: 15px;
+}
+.sec-2 h2,.sec-3 h2,.sec-4 h2{
+    color: orangered;
+    font-family:sans-serif;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 34px;
+
+}
+.sec-2{
+    margin-top: 25px;
+}
+.vision p,.mission ul{
+    margin-left: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 14px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+.card-1{
+    height: 280px;
+    width: 250px;
+    background-color:rgb(11, 10, 10);
+    border-radius: 20px;
+    position: relative;
+    z-index: -1;
+   box-shadow: 5px 5px 5px gray ;
+}
+.card-1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    z-index: 1;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 49px;
+    border: 3px solid white;
+    padding: 4px;
+   
+}
+.teacher-card{
+    margin-left: 25px;
+}
+.blue-clr{
+    position: absolute;
+    background-color: blue;
+    height: 140px;
+    width: 250px;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    z-index: -1;
+}
+.one,.two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 35px;
+    margin-top: 25px;
+}
+.card-del{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-1 h3{
+    color: orangered;
+    margin-top: 15px;
+}
+.card-1 h4{
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.stu-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.stu-del{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.stu-del p{
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.sec-4{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: black;
+    
+}
+.contact h3{
+    color: orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.contact p{
+    color: rgb(250, 247, 246);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+    
+}
+.link-about a{
+   text-decoration: none;
+   color: aliceblue;
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+}
